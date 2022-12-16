@@ -15,6 +15,7 @@ import sys
 # 6. INTEGER_ARRAY oranges
 #
 def countApplesAndOranges(s, t, a, b, apples, oranges):
+    
 # Write your code here
 if __name__ == '__main__':
     first_multiple_input = input().rstrip().split()
