@@ -13,8 +13,9 @@ import sys
 def aVeryBigSum(ar):
     suma = 0 #Definir la variable suma
     # Write your code here
-    for i in range(len(ar)): #Recorrer la matriz
-        suma = suma + ar[i] #Sumar los elementos de la matriz
+    for i in ar: # sirve para recorrer la matriz
+        for j in i: # sirve para recorrer cada elemento de la matriz
+            suma = suma + j
     print("El resultado de la suma de la siguiente matriz es de: ", suma)
 
 

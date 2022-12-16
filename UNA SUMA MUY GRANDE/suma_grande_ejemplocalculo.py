@@ -6,8 +6,8 @@ import sys
 
 def aVeryBigSum(ar):
     suma = 0
-    for i in ar: # sirve para recorrer la matriz
-        for j in i: # sirve para recorrer cada elemento de la matriz
+    for i in ar:
+        for j in i:
             suma = suma + j
     print("El resultado de la suma de la siguiente matriz es de: ", suma)
 
