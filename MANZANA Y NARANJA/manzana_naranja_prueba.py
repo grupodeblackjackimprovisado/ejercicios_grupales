@@ -16,13 +16,14 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     print("En total han caido", str(totalorange),"narajas")
 
 
+
 if __name__ == '__main__':
-    s = 0
-    t = 10
+    s = 4
+    t = 8
     a = 2
-    b = 8
+    b = 10
     m = 7
     n = 5
-    apples = [4, 5]
-    oranges = [1,4]
+    apples = [-3,3]
+    oranges = [-3,3]
     countApplesAndOranges(s, t, a, b, apples, oranges)
