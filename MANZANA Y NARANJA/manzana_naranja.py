@@ -23,7 +23,7 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     for i in range(len(oranges)):
         if s<= b + oranges[i]<=t: #igual con naranjas
             totalorange+=1
-    print("En total han caido", str(totalapples,"manzanas"))
+    print("En total han caido", str(totalapples),"manzanas"))
     print("En total han caido", str(totalorange),"narajas")
 
     
