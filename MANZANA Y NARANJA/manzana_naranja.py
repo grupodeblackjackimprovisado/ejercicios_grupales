@@ -18,8 +18,14 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     totalapples=0
     totalorange=0
     for i in range(len(apples)):
-        if s< a + apples[i]<=t:
+        if s<= a + apples[i]<=t:
             totalapples+=1
+    for i in range(len(oranges)):
+        if s<= b + oranges[i]<=t: #igual con naranjas
+            totalorange+=1
+
+    
+    
         
 
 if __name__ == '__main__':
