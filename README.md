@@ -2,6 +2,8 @@
 
 Link: https://github.com/grupodeblackjackimprovisado/ejercicios_grupales.git
 
+Participantes: Angel, María, Jacobo, Fernando
+
 # 1. UNA SUMA MUY GRANDE
 
 En este desafío, debe calcular e imprimir la suma de los elementos en una matriz, teniendo en cuenta
