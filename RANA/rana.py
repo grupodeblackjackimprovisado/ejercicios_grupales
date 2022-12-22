@@ -3,6 +3,12 @@ import os
 import random
 import re
 import sys
+print('\n',"R: Rana", '\n', "T/U: Túneles", '\n', "X: Muro", '\n', "E: Salida", '\n', "B: Bomba")
+laberinto = [[' ', ' ', 'T', ' ', 'U', 'X', ' ', ' E'],
+             ['R', ' ', ' ', 'X', 'X', ' ', ' ', ' '],
+             [' ', ' ', 'X', 'X', 'U', ' ', ' ', 'X'],
+             [' ', ' ', 'B', 'X', ' ', ' ', 'B', 'B'],
+             ['T', ' ', ' ', 'X', ' ', ' ', ' ', 'E']]
 if __name__ == '__main__':
     first_multiple_input = input().rstrip().split()
     n = int(first_multiple_input[0]) # fila
