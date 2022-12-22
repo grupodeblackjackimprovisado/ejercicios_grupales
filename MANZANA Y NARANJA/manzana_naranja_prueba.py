@@ -15,7 +15,11 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     print("En total han caido", str(totalapples),"manzanas")
     print("En total han caido", str(totalorange),"narajas")
 
-
+def listaAleatorios(n,a,b): #distancia de las manzanas y naranjas aleatorias
+      lista = [0]  * n
+      for i in range(n):
+          lista[i] = random.randint(a,b)
+      return lista
 
 if __name__ == '__main__':
     s = 4
@@ -24,6 +28,6 @@ if __name__ == '__main__':
     b = 10
     m = 7
     n = 5
-    apples = [-3,3]
-    oranges = [-3,3]
+    apples = listaAleatorios(2,a,b)
+    oranges = listaAleatorios(2,a,b)
     countApplesAndOranges(s, t, a, b, apples, oranges)

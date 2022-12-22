@@ -26,10 +26,6 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     print("En total han caido", str(totalapples),"manzanas")
     print("En total han caido", str(totalorange),"narajas")
 
-    
-    
-        
-
 if __name__ == '__main__':
     first_multiple_input = input().rstrip().split()
     s = int(first_multiple_input[0]) # Inicio de la casa
